@@ -25,7 +25,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <subviews>
                                     <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YJ6-W9-aFr" userLabel="ContentView">
-                                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="398"/>
                                         <subviews>
                                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Name" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a9F-jw-h2O" userLabel="Label - Name">
                                                 <rect key="frame" x="12" y="30" width="351" height="23"/>
@@ -84,7 +84,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
-                                        <color key="backgroundColor" red="1" green="0.86504448779999998" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstItem="iYN-eu-75J" firstAttribute="trailing" secondItem="a9F-jw-h2O" secondAttribute="trailing" id="4rw-AL-XFP"/>
                                             <constraint firstItem="iYN-eu-75J" firstAttribute="top" secondItem="RG1-iR-D41" secondAttribute="bottom" constant="8" id="5Md-tJ-P27"/>
@@ -100,6 +100,7 @@
                                             <constraint firstItem="a9F-jw-h2O" firstAttribute="leading" secondItem="YJ6-W9-aFr" secondAttribute="leading" constant="12" id="dRk-T3-EhT"/>
                                             <constraint firstItem="1eb-2U-JaJ" firstAttribute="trailing" secondItem="a9F-jw-h2O" secondAttribute="trailing" id="eAC-W7-mmB"/>
                                             <constraint firstItem="RG1-iR-D41" firstAttribute="top" secondItem="dbt-pr-waS" secondAttribute="bottom" constant="8" id="f2A-gv-QNO"/>
+                                            <constraint firstAttribute="bottom" secondItem="cAy-99-G2f" secondAttribute="bottom" constant="10" id="jVe-o1-sjR"/>
                                             <constraint firstAttribute="trailing" secondItem="a9F-jw-h2O" secondAttribute="trailing" constant="12" id="k5q-Rt-NIN"/>
                                             <constraint firstItem="1eb-2U-JaJ" firstAttribute="leading" secondItem="a9F-jw-h2O" secondAttribute="leading" id="kif-8f-svL"/>
                                             <constraint firstItem="dbt-pr-waS" firstAttribute="top" secondItem="1eb-2U-JaJ" secondAttribute="bottom" constant="8" id="lWy-aE-72R"/>
@@ -123,7 +124,6 @@
                             <constraint firstItem="1VP-Vj-9ic" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="4EM-fs-KQT"/>
                             <constraint firstItem="1VP-Vj-9ic" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="8cv-hq-yDh"/>
                             <constraint firstAttribute="trailing" secondItem="1VP-Vj-9ic" secondAttribute="trailing" id="FDH-Ed-GXb"/>
-                            <constraint firstItem="YJ6-W9-aFr" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" id="MnA-WW-e7A"/>
                             <constraint firstItem="YJ6-W9-aFr" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="RmC-xK-fI4"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="1VP-Vj-9ic" secondAttribute="bottom" id="wWN-vZ-6vI"/>
                         </constraints>
